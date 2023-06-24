@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+header > h1 {
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    font-size: 64px;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-sizing: border-box;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    padding: 20px 0;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid red;
+    color: black;
+}
+
+/* MAIN */
+
+section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;    
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+article > img {
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 5px;
+}
+
+.itme {
+    width: 400px;
+}
+
+h2 {
+    margin-left: 50px;
+    color: red;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 0 0 400px;
+}
+
+.cat-content {
+    gap: 100px;
+    padding: 0 30px
+}
+
+section  a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* FORM */
+.form-wrapper {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* FOOTER */
+
+#footer, footer {
+    border-top: 1px solid rgb(182, 182, 182);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* ARTICLE */
+
+.article-wrapper {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.article-cat {
+    text-align: left;
+    color: red;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.article-title {
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-size: 56px;
+    margin: 0;
+}
+
+.article-img {
+    display: flex;
+    justify-content: center;
+}
+
+.article-info {
+    margin: 20px 0;
+}
+
+.article-cat-under {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 15px;
+    color: white;
+    background-color: red;
+    width: fit-content;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+

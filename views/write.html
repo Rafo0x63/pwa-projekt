@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsweek</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script defer src="http://localhost/PWA%20projekt/scripts/componentLoader.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <div class="form-wrapper">
+
+        <form enctype="multipart/form-data" action="http://localhost/PWA%20projekt/scripts/handleForm.php" name="form" method="POST">
+            Title <br>
+            <input type="text" name="title"> <br>
+            Abstract <br>
+            <textarea name="abstract" cols="30" rows="10"></textarea> <br>
+            Content <br>
+            <textarea name="content" cols="30" rows="10"></textarea> <br>
+            Image <br>
+            <input type="file" accept="image/gif, image/jpg " name="photo"> <br>
+            Category <br>
+            <select name="category">
+                <option value="Sport">Sport</option>
+                <option value="Tech">Tech</option>
+            </select> <br>
+            Archive <br>
+            <input type="checkbox"> <br>
+            <input type="button" value="Discard">
+            <input type="submit" value="Done">
+        </form>
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
