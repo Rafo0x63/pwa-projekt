@@ -7,7 +7,7 @@ echo "<style>";
 echo "</style>";
 
 echo "<body>";
-    include("header.html");
+    include("header.php");
 
     $cat = $_GET["id"];
     $query = "SELECT * FROM posts WHERE category = '$cat'";

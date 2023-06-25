@@ -5,7 +5,7 @@
 <?php
 include ("../scripts/db.php");
 
-include("header.html");
+include("header.php");
 
 $id = $_GET["id"];
 

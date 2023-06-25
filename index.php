@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header"></div>
+    <?php include "views/header.php" ?>
     
     <section class="sport">
         <?php

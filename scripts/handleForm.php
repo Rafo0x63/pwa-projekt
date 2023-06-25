@@ -28,7 +28,7 @@ if(mysqli_stmt_prepare($stmt, $query)) {
         include("../style.css");
         echo "</style>";
 
-        include("../views/header.html");
+        include("../views/header.php");
 
         echo "<div class='article-wrapper'>
         <h3 class='article-cat'>$category</h3>

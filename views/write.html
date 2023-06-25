@@ -6,6 +6,8 @@
     <title>Newsweek</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script defer src="http://localhost/PWA%20projekt/scripts/componentLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script defer src="http://localhost/PWA%20projekt/scripts/validateFormWrite.js"></script>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -13,7 +15,7 @@
 
     <div class="form-wrapper">
 
-        <form enctype="multipart/form-data" action="http://localhost/PWA%20projekt/scripts/handleForm.php" name="form" method="POST">
+        <form enctype="multipart/form-data" action="http://localhost/PWA%20projekt/scripts/handleForm.php" name="form" id="form-write" method="POST">
             Title <br>
             <input type="text" name="title"> <br>
             Abstract <br>
