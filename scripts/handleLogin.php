@@ -46,7 +46,7 @@ echo "<div class='registration'>";
 
 if ($login) {
     $_SESSION['username'] = $_POST['username'];
-    if ($_POST['username'] == "ADMIN") {
+    if ($_POST['username'] == "admin" || $_POST['username'] == "ADMIN") {
         $_SESSION['level'] = 1;
     } else $_SESSION['level'] = 0;
 } 

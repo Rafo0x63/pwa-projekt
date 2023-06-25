@@ -105,7 +105,7 @@ if (isset($_POST['update'])) {
 
 } else {
 
-    if (isset($_SESSION['username']) && $_SESSION['username'] != "ADMIN") {
+    if (isset($_SESSION['username']) && $_SESSION['level'] == 0) {
         echo "<p class='mess'>Hello, $_SESSION[username], you are logged in, but you are not an admin.</p>";
     } 
     else if (!isset($_SESSION['username'])){
@@ -113,7 +113,7 @@ if (isset($_POST['update'])) {
         echo "<a href='../views/login.php'>Please login</a>";
     echo "</div>";
 
-    include "footer.php";
+    include "footer.html";
     }
 }
 

@@ -89,10 +89,7 @@ h2 {
     flex: 0 0 400px;
 }
 
-.cat-content {
-    gap: 100px;
-    padding: 0 30px
-}
+
 
 section  a {
     text-decoration: none;
@@ -200,7 +197,7 @@ h1 > a {
 }
 
 .registration {
-    height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
